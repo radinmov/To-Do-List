@@ -1,6 +1,6 @@
 var input= document.getElementById("input-box")
 var listContainer =document.getElementById("list-conatiner")
-alert("Welcome MadedBy:Radin Movahedi")
+alert("Welcome MadedBy:Radin Moavhedi")
 input.addEventListener('keydown' ,function(event){
     if (event.KeyCode === 13) {
         add()
