@@ -1,10 +1,19 @@
 var input= document.getElementById("input-box")
 var listContainer =document.getElementById("list-conatiner")
+alert("Welcome MadedBy:Radin Movahedi")
+input.addEventListener('keydown' ,function(event){
+    if (event.KeyCode === 13) {
+        add()
+    }
+    
+    // console.log(event);
 
+})
 
 function add(){
-    if(input.value===""){
+    if(input.value.trim()===""){
         alert("You must write something")
+        alert("thanks")
     }
     else {
         let li =document.createElement('li')
